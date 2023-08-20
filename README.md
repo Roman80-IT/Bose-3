@@ -119,40 +119,28 @@ letter-spacing: -1.5px;
 `jcc` -> `justify-content: center;`
 `w100%` -> `width: 100%;`
 `flex-basis` -> `flex-basis: 324px;`
-
-/* Margins and padding */
-`.recommended` -> `margin-bottom: 120px;`
-`.product__photo` -> `margin-bottom: 32px;`
-`.product__title` -> `margin-top: 0; margin-bottom: 8px;`
-`.product__category` -> `margin-top: 0; margin-bottom: 12px;`
-`.product__price` -> `margin: 0;`
-
-/* Text styles */
-`body` -> `font-size: 16px; line-height: 140%;`
-`.product__title` -> `font-size: 16px;`
-`.product__price` -> `font-weight: bold;`
-
-/* Centering */
-To center items on wide screens, use appropriate CSS rules.
 ```
 
-`fd` -> `display: flex;`
-`gap24` -> `gap: 24px;`
-Відцентруй картки за допомогою `jcc` -> `justify-content: center;`.
-Задай ширину `w100%` -> `width: 100%;` для зображень `.product__photo`, щоб вони вмістилися на сторінці.
-А щоб ширина товарів була однаковою, для `.product` треба встановити `flex-basis: 324px;` (це розмір із макета).
+1. `fd` `->` `display: flex;`
+2. `gap24` `->` `gap: 24px;`
+3. Відцентруй картки за допомогою `jcc` -> `justify-content: center;`.
+4. Задай ширину `w100%` -> `width: 100%;` для зображень `.product__photo`, щоб вони вмістилися на сторінці.
+5. А щоб ширина товарів була однаковою, для `.product` треба встановити `flex-basis: 324px;` (це розмір із макета).
+   
 Тепер додай відступи:
 
-Для `.recommended` робимо відступ знизу `mb120` -> `margin-bottom: 120px;`.
-Для `.product__photo` робимо `mb32`.
-Для `.product__title` робимо `mt0` та `mb8`.
-Для `.product__category` робимо `mt0` та `mb12`.
-А для `.product__price` скидаємо відступи `m0` -> `margin: 0`.
+1. Для `.recommended` робимо відступ знизу `mb120` -> `margin-bottom: 120px;`.
+2. Для `.product__photo` робимо `mb32`.
+3. Для `.product__title` робимо `mt0` та `mb8`.
+4. Для `.product__category` робимо `mt0` та `mb12`.
+5. А для `.product__price` скидаємо відступи `m0` -> `margin: 0`.
+
 Для текстів зроби наступне:
 
-Для `body` встанови `fz16` та `lh140%`, це будуть стандартні розміри.
-Для `.product__title` задай `fz16`.
-А для `.product__price` тільки `fwb` -> `font-weight: bold`.
+1. Для `body` встанови `fz16` та `lh140%`, це будуть стандартні розміри.
+2. Для `.product__title` задай `fz16`.
+3. А для `.product__price` тільки `fwb` -> `font-weight: bold`.
+
 Тепер товари мають виглядати як у макеті та бути по центру на широкому екрані.
 
 ## Фінальний код уроку
