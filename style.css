@@ -111,6 +111,12 @@ body {
   gap: 24px;
 }
 
+/* #endregion */
+/* #region product */
+.product {
+  flex-basis: 324px;
+}
+
 .product__photo {
   width: 100%;
   margin-bottom: 32px;
@@ -119,6 +125,8 @@ body {
 .product__title {
   margin-top: 0;
   margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 140%;
 }
 
 .product__category {
