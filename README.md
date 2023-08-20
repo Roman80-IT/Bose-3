@@ -112,17 +112,8 @@ letter-spacing: -1.5px;
 }
 ```
 
-```css
-/* Flexbox styles */
-`fd` -> `display: flex;`
-`gap24` -> `gap: 24px;`
-`jcc` -> `justify-content: center;`
-`w100%` -> `width: 100%;`
-`flex-basis` -> `flex-basis: 324px;`
-```
-
-1. `fd` `->` `display: flex;`
-2. `gap24` `->` `gap: 24px;`
+1. `fd` \-> `display: flex;`
+2. `gap24` `\->` `gap: 24px;`
 3. Відцентруй картки за допомогою `jcc` -> `justify-content: center;`.
 4. Задай ширину `w100%` -> `width: 100%;` для зображень `.product__photo`, щоб вони вмістилися на сторінці.
 5. А щоб ширина товарів була однаковою, для `.product` треба встановити `flex-basis: 324px;` (це розмір із макета).
